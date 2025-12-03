@@ -1,7 +1,7 @@
 
 import * as fs from "node:fs"
 import z from "zod"
-import { scriptSchema } from "./script.zod.mts"
+import { scriptSchema } from "./script.schema.mts"
 
 
 

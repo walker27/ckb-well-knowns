@@ -1,0 +1,36 @@
+{
+  "$schema": "../schema.json",
+  "name": "USDI",
+  "symbol": "USDI",
+  "icon": "./usdi.svg",
+  "decimal": 6,
+  "tags": [
+    "rgb++",
+    "layer-2-asset"
+  ],
+  "deployments": {
+    "mainnet": [
+      {
+        "manager": "ckb1qrgqep8saj8agswr30pls73hra28ry8jlnlc3ejzh3dl2ju7xxpjxqgqq8we8qft3s9u47pfv5c2uq4xexurymlgfc6hvrcf",
+        "type": {
+          "codeHash": "0xbfa35a9c38a676682b65ade8f02be164d48632281477e36f8dc2f41f79e56bfc",
+          "hashType": "type",
+          "args": "0xd591ebdc69626647e056e13345fd830c8b876bb06aa07ba610479eb77153ea9f"
+        },
+        "deprecated": false
+      }
+    ],
+    "testnet": [
+      {
+        "type": {
+          "codeHash": "0x1142755a044bf2ee358cba9f2da187ce928c91cd4dc8692ded0337efa677d21a",
+          "hashType": "type",
+          "args": "0x878fcc6f1f08d48e87bb1c3b3d5083f23f8a39c5d5c764f253b55b998526439b"
+        },
+        "manager": "ckt1qzda0cr08m85hc8jlnfp3zer7xulejywt49kt2rr0vthywaa50xwsqvt29ul8eew7c2kycc3r8hcyxlaed8me9gfnzdaf",
+        "deprecated": false,
+        "tag": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "ckb-well-knowns",
+  "version": "1.0.0",
+  "description": "include udt、script",
+  "homepage": "https://github.com/walker27/ckb-well-knowns#readme",
+  "bugs": {
+    "url": "https://github.com/walker27/ckb-well-knowns/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/walker27/ckb-well-knowns.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {},
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "typescript": "^5.9.3",
+    "zod": "^4.1.13"
+  }
+}
